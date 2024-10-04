@@ -42,7 +42,7 @@ public class Main {
         int days = day * 3; // Кол-во минут в 3 сутках
         int month = day * 30; // Кол-во минут в месяце
 
-        System.out.println("За 20 минут машина произвела " + bm * 20 + " штук бутылок");
+        System.out.println("За 20 минут машина произвела " + mts + " штук бутылок");
         System.out.println("За сутки машина произвела " + bm * day + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + bm * days + " штук бутылок");
         System.out.println("За месяц машина произвела " + bm * month + " штук бутылок");
@@ -57,6 +57,6 @@ public class Main {
         int brownForRoom = brown * amountRooms; // Всего коричневой
         System.out.println("В школе, где " + amountRooms +" классов, нужно " + whiteForRooms + " банок белой краски и " + brownForRoom +" банок коричневой краски");
 
-
+        // Task 6
         }
 }
